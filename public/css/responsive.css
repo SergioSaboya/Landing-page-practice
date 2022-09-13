@@ -1,0 +1,58 @@
+@media screen and (max-width:1200px){
+
+    .body-container{
+        padding: 0px;
+    }
+
+    .left,.right{
+        width: 100%;
+    }
+
+    #sell .top {
+        flex-direction: column;
+    }
+    #sell .top *{
+        width: 100%;
+    }
+    .testimonial{
+        flex-direction: column;
+    }
+    .grid-info-item-1 div,.grid-info-item-1 ul{
+        flex-direction: column;
+    }
+    .grid-info-item-1 ul li{
+        width: 100%;
+    }
+
+    .grid-info-item-2 ul{
+        flex-direction: column;
+    }
+    .grid-info-item-2{
+      flex-direction: column;
+    }
+
+    .grid-info-item-3 div{
+        padding:0.5em;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .partners *{
+        flex-direction: column;
+    }
+
+    .footer{
+        position: relative;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .camion{
+        display:none;
+    }
+    .nav-bar-text{
+        visibility: hidden;
+    }
+    .btn-menu{
+        visibility: visible;
+    }
+}
